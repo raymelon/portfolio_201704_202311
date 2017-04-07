@@ -13,4 +13,4 @@ My website, with 💖.
 | Vertical Timeline | [Sebastiano Guerriero](https://twitter.com/guerriero_se), Cody House | https://codyhouse.co/gem/vertical-timeline/
 | GitHub Pages | GitHub | https://pages.github.com/
 
-All trademarks and registered trademarks used in this README.md file and [raymelon.github.io](https://raymelon.github.io) are property of their respective owners. 
+All trademarks and registered trademarks used in this README.md file and [raymelon.github.io](https://raymelon.github.io) are properties of their respective owners. 
