@@ -1,0 +1,349 @@
+.typed-cursor {
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+
+	color: black;
+}
+@keyframes blink {
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink {
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+body {
+	background-color: #DC143C;
+	font-family: 'Roboto', sans-serif;
+	-webkit-transition: background-color 300ms;
+  	transition: background-color 300ms;
+}
+
+.intro-text {
+	font-family: "Source Code Pro";
+	color: white;
+}
+
+#coder {
+	padding-top: 25%;
+	float: left;
+	position: absolute;
+	display: none;
+}
+
+#golfer {
+	padding-top: 25%;
+	float: right;
+	position: absolute;
+	display: none;
+}
+
+.intro-des {
+	font-size: 80px;
+	text-align: center;
+	/*position: relative;*/
+	/*color: #FA8072;*/
+	color: #F5DEB3;
+	/*display: none;*/
+
+	font-family: 'Roboto', sans-serif;
+	/*padding-right: 50%;
+	padding-left: 20%;*/
+	padding-left: 30%;
+	padding-right: 10%;
+	width: 100%;
+}
+
+.container {
+	text-align: center;
+	position: absolute;
+	font-size: 100px;
+	width: 100%;
+    height: 100px;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    font-family: "Segoe UI";
+}
+
+.box {
+	width: 100%;
+	position: relative;
+	display: none;
+	color: white;
+	font-size: 20px;
+	padding-top: 20%;
+}
+
+button {
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover {
+	background-color: #F4A460;
+    border-color: transparent;
+    transition: box-shadow 0.2s;
+}
+
+.cd-timeline-content {
+    transition: box-shadow 0.2s;
+    border: 1px solid #eee;
+}
+
+.cd-timeline-content:hover {
+  	box-shadow: 0 0 3px #515151;
+}
+
+#logo1, #logo3 {
+	padding-top: 10%;
+	height: 65%;
+	width: 65%;
+}
+
+#logo2 {
+	padding-top: 10%;
+	height: 60%;
+	width: 50%;
+}
+
+/*#box1:hover, #box2:hover, #box3:hover {
+	color: black;
+	font-size: 30px;
+}*/
+
+/*#logo1:hover, #logo3:hover {
+	height: 70%;
+	width: 70%;
+}
+
+#logo2:hover {
+	height: 60%;
+	width: 50%;
+}*/
+
+#box1 {
+	width: 30%;
+	left: 5%;
+	right: 45%;
+	text-align: center;
+	/*background-color: #2E8B57;*/
+	/*border-style: solid;*/
+	position: absolute;
+	margin: 0 auto;
+}
+
+#box2 {
+	width: 30%;
+	left: 45%;
+	right: 5%;
+	text-align: center;
+	/*background-color: #2E8B57;*/
+	/*border-style: solid;*/
+	position: absolute;
+	margin: 0 auto;
+}
+
+#box3 {
+	width: 30%;
+	left: 20%;
+	right: 20%;
+	text-align: center;
+	/*background-color: #2E8B57;*/
+	/*border-style: solid;*/
+	position: absolute;
+	margin: 0 auto;
+}
+
+.logos {
+	width: 50%;
+	height: 50%;
+	position: relative;
+}
+
+.footer {
+	position: fixed;
+	left:0px;
+    bottom:0px;
+    /*height:10px;*/
+    height: 0px;
+    width: 100%;
+	background-color: black;
+	text-align: center;
+	box-shadow: 0px 0px 5px;
+	line-height: 35px
+}
+
+.footer:hover {
+	background-color: #2E8B57;
+}
+
+.footer-text {
+    color: white;
+    font-family: "Source Code Pro";
+}
+
+.slick-progressbar {
+	position: fixed;
+	width: 0%;
+	left: 0px;
+    top: 0px;
+	height: 3px;
+	background-color: black;
+}
+
+.github-corner {
+	display: none;
+}
+
+.created-with {
+	display: none;
+	background-color: #2F4F4F;
+	position: relative;
+
+	top: 400px;
+	padding-bottom: 35px;
+	padding-top: 20px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	height: 220px;
+	
+	color: white;
+	font-size: 20px;
+}
+
+.built-with {
+	text-align: center;
+	width: 95%;
+	position: absolute;
+}
+
+.trademarks {
+	padding-top: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+}
+
+/*#typedjs-logo {
+	height: 73.3px;
+}
+
+#jquery-logo {
+	height: 73.3px;
+}
+
+#octodex-logo {
+	height: 73.3px;
+}
+
+#deviantart-logo {
+	height: 73.3px;
+}*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.personal {
+	font-size: 20px;
+	/*background-color: #D2B48C;*/
+	background-color: #E9F0F5;
+	color: black;
+	display: none;
+	position: relative;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+
+	top: 400px;
+	bottom: 0px;
+	height: 2000px;
+	width: 100%;
+}
+
+#mahvector {
+	padding-top: 30px;
+	padding-left: 39%;
+	float: right;
+}
+
+#mahvectorimg {
+	width: 300px;
+	height: 300px;
+}
+
+#nameplate {
+	padding-top: 320px;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#details {
+	padding-top: 390px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#college {
+	padding-top: 500px;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#college-details {
+	padding-top: 580px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#interests {
+	padding-top: 700px;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#interests-details {
+	padding-top: 780px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#cd-timeline {
+	display: none;
+}
