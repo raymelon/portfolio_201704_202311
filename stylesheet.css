@@ -227,7 +227,7 @@ button:hover {
 	padding-bottom: 35px;
 	padding-top: 20px;
 
-	padding-left: 20px;
+	padding-left: 5px;
 	padding-right: 20px;
 
 	height: 220px;
@@ -266,7 +266,7 @@ button:hover {
 }*/
 
 img {
-    max-width: 100%;
+    max-width: 150%;
     height: auto;
     width: auto;
 }
