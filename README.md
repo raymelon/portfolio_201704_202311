@@ -1,4 +1,4 @@
-# raymelon.github.io
+# raymelon.github.io [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://raymelon.github.io) [![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
 My website, with 💖.
 
 ### Built with 💖 and the following
